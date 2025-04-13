@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khám phá Hà Nội</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; }
+        header { background-color: #333; color: #fff; padding: 20px 0; text-align: center; }
+        nav { background: #444; padding: 10px 0; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        section { padding: 20px; max-width: 1200px; margin: auto; }
+        h2 { color: #333; }
+        .destination { display: flex; flex-wrap: wrap; gap: 20px; }
+        .card { background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); overflow: hidden; width: calc(33% - 20px); }
+        .card img { width: 100%; height: 200px; object-fit: cover; }
+        .card-content { padding: 15px; }
+        footer { text-align: center; background: #333; color: white; padding: 10px 0; margin-top: 20px; }
+        @media (max-width: 768px) {
+            .card { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Khám phá Hà Nội</h1>
+        <p>Hành trình qua những địa danh nổi tiếng và đặc sản hấp dẫn của thủ đô ngàn năm văn hiến.</p>
+    </header>
+    <nav>
+        <a href="#dia-danh">Địa danh nổi tiếng</a>
+        <a href="#dac-san">Đặc sản Hà Nội</a>
+        <a href="#lien-he">Liên hệ</a>
+    </nav>
+
+    <section id="dia-danh">
+        <h2>Địa danh nổi tiếng</h2>
+        <div class="destination">
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Hoan_Kiem_Lake.jpg" alt="Hồ Hoàn Kiếm">
+                <div class="card-content">
+                    <h3>Hồ Hoàn Kiếm</h3>
+                    <p>Trái tim của Hà Nội với tháp Rùa và truyền thuyết Lê Lợi trả gươm báu cho Rùa thần.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Van_Mieu_-_Quoc_Tu_Giam.jpg" alt="Văn Miếu - Quốc Tử Giám">
+                <div class="card-content">
+                    <h3>Văn Miếu - Quốc Tử Giám</h3>
+                    <p>Trường đại học đầu tiên của Việt Nam, nơi tôn vinh truyền thống hiếu học.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Chua_Mot_Cot.jpg" alt="Chùa Một Cột">
+                <div class="card-content">
+                    <h3>Chùa Một Cột</h3>
+                    <p>Ngôi chùa có kiến trúc độc đáo, biểu tượng văn hóa tâm linh của Hà Nội.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dac-san">
+        <h2>Đặc sản Hà Nội</h2>
+        <div class="destination">
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Ph%E1%BB%9F_b%E1%BB%8F_H%C3%A0_N%E1%BB%99i.jpg" alt="Phở Hà Nội">
+                <div class="card-content">
+                    <h3>Phở Hà Nội</h3>
+                    <p>Món ăn trứ danh với nước dùng trong, bánh phở mềm và thịt bò thơm ngon.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Banh_Cuon_Thanh_Tri.jpg" alt="Bánh cuốn Thanh Trì">
+                <div class="card-content">
+                    <h3>Bánh cuốn Thanh Trì</h3>
+                    <p>Món bánh mỏng mịn, nhân thịt băm, mộc nhĩ, ăn kèm nước chấm đậm đà.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Cha_ca_La_Vong.jpg" alt="Chả cá Lã Vọng">
+                <div class="card-content">
+                    <h3>Chả cá Lã Vọng</h3>
+                    <p>Món ăn truyền thống với cá được tẩm ướp, nướng thơm và ăn kèm rau thơm, bún.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lien-he">
+        <h2>Liên hệ</h2>
+        <p>Nếu bạn có bất kỳ câu hỏi nào về du lịch Hà Nội, xin vui lòng liên hệ với chúng tôi qua email: <strong>info@khamphahanoi.vn</strong></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Khám phá Hà Nội. Bản quyền thuộc về chúng tôi.</p>
+    </footer>
+</body>
+</html>
